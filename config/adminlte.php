@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/img/icon2.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -109,7 +109,7 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'vendor/adminlte/dist/img/icon2.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
             'width' => 60,
@@ -319,8 +319,7 @@ return [
         ],
         [
             'text'        => 'KELOLA DATA SISWA',
-            //'url'         => './resources/views/keloladatasiswa',
-            'url'         => 'admin/keloladatasiswa',
+            'url'         => 'admin/kelolasiswa',
         ],
         [
             'text'        => 'KELOLA PENJADWALAN',
@@ -328,19 +327,19 @@ return [
         ],
         [
             'text'        => 'KELOLA DATA GURU',
-            'url'         => 'admin/pages',
+            'url'         => 'admin/kelolaguru',
         ],
         [
             'text'        => 'KELOLA DATA KELAS',
-            'url'         => 'admin/pages',
+            'url'         => 'admin/kelolakelas',
         ],
         [
             'text'        => 'KELOLA MATA PELAJARAN',
-            'url'         => 'admin/pages',
+            'url'         => 'admin/kelolapelajaran',
         ],
         [
             'text'        => 'KELOLA JURUSAN',
-            'url'         => 'admin/pages',
+            'url'         => 'admin/kelolajurusan',
         ],
     ],
 
